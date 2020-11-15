@@ -30,7 +30,7 @@ $ python -m benchmark.main -b 127.0.0.1:9092 -t test-topic-confluent -np 1 -n 20
 $ python -m benchmark.main -b 127.0.0.1:9092 -t test-topic-confluent -np 1 -n 10000000 consume -c
 ```
 
-### Kafka Python client
+### Kafka Python client
 ```bash
 $ python -m benchmark.main -b 127.0.0.1:9092 -t test-topic-confluent -np 1 -n 10000000 consume -kp
 ```
